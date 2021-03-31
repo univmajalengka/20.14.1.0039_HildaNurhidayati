@@ -1,0 +1,19 @@
+{Nama   : Hilda Nurhidayati}
+{NPM    : 20.14.1.0039}
+
+program konversi_suhu;
+uses crt;
+
+var
+f : integer;
+c : real;
+
+begin
+write('Program konversi suhu fahrenheit - celcius ');readln;
+write('===========================================');readln;
+write('Masukkan suhu dalam fahrenheit ');readln;
+writeln();
+c := (f-32)/1.8;
+write('Suhu dalam celcius : ',c);readln;
+
+end.
